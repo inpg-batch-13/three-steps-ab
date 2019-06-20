@@ -1,6 +1,6 @@
 function threeStepsAB (text) {
 
-    for (var i = text.length - 1; i > 4; i--) {
+    for (var i = text.length - 1; i > 3; i--) {
     
         if (text[i] == 'b'|| text[i] == 'B' && text[i - 4] == 'a' || text[i - 4] == 'A') {
             return true
