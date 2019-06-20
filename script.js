@@ -1,5 +1,13 @@
-function threeStepsAB (text) {
-// Your code here
+function threeStepsAB (text) 
+{
+    for (var i = 0 ; i < text.length; i++)
+    {
+        if ( text[i-4] === 'a' && text [i] === 'b')
+        {
+            return true
+        }
+    }
+    return false
 }
 
 // TEST CASES
